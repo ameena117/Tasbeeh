@@ -14,7 +14,7 @@ container.innerHTML = athkar
             count,
         }) => `
         <div class="col-12 col-sm-6 col-lg-3 text-center p-3 text-light">
-        <h3 class="thekrName bg-primary p-3 rounded-top cursor-pointer"> <button class="w-100 rounded">${thekr} </buton> </h3>
+        <h3 class="thekrName bg-primary p-3 rounded-top cursor-pointer"> <button class="w-100 rounded p-3">${thekr} </buton> </h3>
        <h3 class="thekrCount bg-secondary p-3 rounded-bottom">${count}</h3>
        </div>
       `
